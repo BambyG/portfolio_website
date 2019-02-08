@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  
+}
+
+
+.header {
+  background-color: black;
+  height: 4em;
+  display:flex;
+  align-items: center;
+}
+
+
+.logo{
+  flex:7;
+  padding-left: 1em;
+
+}
+
+.logo img {
+  width: 10%;
+}
+
+
+
+.name{
+  color: white;
+  flex:1;
+  padding-right: 1em;
+  text-transform: uppercase;
+
+}
