@@ -90,7 +90,7 @@ letter-spacing: 1rem;
   }
 
   .hero {
-    background: url("../Project1/images/hero.jpg") no-repeat center center;
+    background: url("images/hero.jpg") no-repeat center center;
     background-size: cover;
     width: 90%;
     background-position: top;
@@ -190,7 +190,7 @@ letter-spacing: 1rem;
    }
 
    .project__image-1 {
-    background-image: url("../Project1/images/hero.jpg");
+    background-image: url("../images/hero.jpg");
    }
    .project__image-2 {
     background-image: url("../Project1/images/blogging.jpg");
