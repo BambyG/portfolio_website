@@ -190,22 +190,22 @@ letter-spacing: 1rem;
    }
 
    .project__image-1 {
-    background-image: url("../images/hero.jpg");
+    background-image: url("images/hero.jpg");
    }
    .project__image-2 {
-    background-image: url("../Project1/images/blogging.jpg");
+    background-image: url("images/blogging.jpg");
    }
    .project__image-3 {
-    background-image: url("../Project1/images/deartechpeople.jpg");
+    background-image: url("images/deartechpeople.jpg");
    }
    .project__image-4 {
-    background-image: url("../Project1/images/header.jpg");
+    background-image: url("images/header.jpg");
    }
    .project__image-5 {
-    background-image: url("../Project1/images/hola-mobile.jpg");
+    background-image: url("images/hola-mobile.jpg");
    }
    .project__image-6 {
-    background-image: url("../Project1/images/sample-image.jpg");
+    background-image: url("images/sample-image.jpg");
    }
 
    
