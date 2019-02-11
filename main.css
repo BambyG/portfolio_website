@@ -90,7 +90,7 @@ letter-spacing: 1rem;
   }
 
   .hero {
-    background: url(../Project1/images/hero.jpg) no-repeat center center;
+    background: url("../Project1/images/hero.jpg") no-repeat center center;
     background-size: cover;
     width: 90%;
     background-position: top;
@@ -190,22 +190,22 @@ letter-spacing: 1rem;
    }
 
    .project__image-1 {
-    background-image: url(../Project1/images/hero.jpg);
+    background-image: url("../Project1/images/hero.jpg");
    }
    .project__image-2 {
-    background-image: url(../Project1/images/blogging.jpg);
+    background-image: url("../Project1/images/blogging.jpg");
    }
    .project__image-3 {
-    background-image: url(../Project1/images/deartechpeople.jpg);
+    background-image: url("../Project1/images/deartechpeople.jpg");
    }
    .project__image-4 {
-    background-image: url(../Project1/images/header.jpg);
+    background-image: url("../Project1/images/header.jpg");
    }
    .project__image-5 {
-    background-image: url(../Project1/images/hola-mobile.jpg);
+    background-image: url("../Project1/images/hola-mobile.jpg");
    }
    .project__image-6 {
-    background-image: url(../Project1/images/sample-image.jpg);
+    background-image: url("../Project1/images/sample-image.jpg");
    }
 
    
