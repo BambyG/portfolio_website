@@ -1,28 +1,25 @@
-
-
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-family: lato;
-    overflow-x: hidden; 
-    font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5%*/
-    margin:0 auto;
-     max-width:1400px;
-
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: lato;
+  overflow-x: hidden;
+  font-size: 62.5%;
+ /*1 rem = 10px;
+  10px/16px = 62.5%*/
+  margin:0 auto;
+  max-width:1400px;
 }
 
 p, a {
   font-size:1.6rem;
 }
 
-
 .header {
   display:flex;
   justify-content: space-between;
-  overflow-x:initial ; 
+  overflow-x:initial ;
   padding-bottom:1rem;
   width: 90%;
   margin:0 auto;
@@ -31,19 +28,16 @@ p, a {
 
 @media screen and (max-width: 450px) {
   .header{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
-  
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ }
 }
 
 .logo img {
   width: 10rem;
+  margin-top: 4rem;
 }
-
-
 
 .name{
   color: #2d3c49;
@@ -55,223 +49,242 @@ p, a {
 }
 
 .header__name{
-font-size: 5rem;
-font-weight: 100;
-letter-spacing: 1rem;
+  font-size: 5rem;
+  font-weight: 100;
+  letter-spacing: 1rem;
 }
 
 @media screen and (max-width:450px) {
   .header__name{
-    font-size: 3rem;
-    text-align:center;
-    padding-top: 2rem;
-  }
-  
+      font-size: 3rem;
+      text-align:center;
+      padding-top: 2rem;
+ }
 }
+
 .header__title{
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: 1rem;
   float: right;
-  }
+}
 
 @media screen and (max-width: 450px) {
-    .header__title{
+  .header__title{
       text-align:center;
-    }}
+ }
+}
 
-  hr {
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:5rem;
-    width:90%;
-    border-top: 5px solid #7d97ad;
+hr {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5rem;
+  width:90%;
+  border-top: 5px solid #7d97ad;
+}
 
-  }
+.hero {
+  background: url("images/nat-6-small.jpg") no-repeat center center;
+  background-size: cover;
+  width: 90%;
+  background-position: center;
+  margin:3rem auto;
+  height: 50vh;
+  border-radius: 3px;
+  box-shadow: 0 2rem 4rem rgba(black, .2);
+}
 
-  .hero {
-    background: url("images/hero.jpg") no-repeat center center;
-    background-size: cover;
-    width: 90%;
-    background-position: top;
-    margin:3rem auto;
-    height: 50vh;
+@media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
+  .hero{
+      background: url("images/nat-6.jpg") no-repeat center center;
+      background-position: center;
+ }
+}
 
-  }
+section {
+  width: 90%;
+  margin:5rem auto;
+}
 
-  /* .hero img{
-    max-width: 100%; 
-    display: block;
-    width: 100%;
-    margin:auto;
-   } */
+h3{
+  padding-bottom: 3rem;
+  font-size:1.8rem;
+}
 
-   section {
-     
-     width: 90%;
-     margin:5rem auto;
-   }
+h4{
+  padding-top: 1rem;
+  font-size:1.7rem;
+}
 
-   
-   h3{
-     padding-bottom: 3rem;
-     font-size:1.8rem;
-     
-     
-   }
+.about__text{
+  line-height: 4rem;
+  text-align: justify;
+  margin:0 auto;
+}
 
-  h4{
-    padding-top: 1rem;
-    font-size:1.7rem;
-    
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-flow: row wrap;
+  margin:0 auto;
+}
 
-  }
+.project{
+  text-align: center;
+  margin: 5px;
+  flex: 1 0 25%;
+  min-width:320px;
+  max-width: 320px;
+  padding-bottom:5rem;
+}
 
-  .about__text{
-    line-height: 4rem;
-    text-align: justify;
-    margin:0 auto;
-
-  
-  }
-
-   .row {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: 100%;
-     flex-flow: row wrap;
-     margin:0 auto;
-   
-     
-   }
-
-   .project{
-     text-align: center;
-     margin: 5px;
-     flex: 1 0 25%;
-     min-width:320px;
-     max-width: 320px;
-     padding-bottom:5rem;
-  
-   }
-
-   @media screen and (min-width: 1024px)and (max-width: 1050px)  {
-    .project{
+@media screen and (min-width: 1024px)and (max-width: 1050px) {
+  .project{
       margin-left:6rem;
       margin-right:6rem;
-    }}
-    @media screen and (max-width: 700px)  {
-      .project{
-        margin:0 auto;
-      }}
+ }
+}
 
-   
+@media screen and (max-width: 700px) {
+  .project{
+      margin:0 auto;
+ }
+}
 
-   .project h2{
-    color: #2d3c49;
-   }
+.project h2{
+  color: #2d3c49;
+}
 
-   .project a {
-    text-decoration: none;
-    color:grey;
-  
-   }
+.project a {
+  text-decoration: none;
+  color:grey;
+}
 
-   .project__image {
-    background-size: cover;
-    height: 23rem;
-    background-blend-mode: screen;
-    transition: all 1s ease;
-   }
+.project__image {
+  background-size: cover;
+  height: 23rem;
+  background-blend-mode: screen;
+  transition: all 1s ease;
+  border-radius: 3px;
+  box-shadow: 0 2rem 4rem rgba(black, .2);
+}
 
-   .project__image:hover {
-     transform: scale(1.05);
-   }
+.project__image:hover {
+  transform: scale(1.05);
+}
 
-   .project__image-1 {
-    background-image: url("images/hero.jpg");
-   }
-   .project__image-2 {
-    background-image: url("images/blogging.jpg");
-   }
-   .project__image-3 {
-    background-image: url("images/deartechpeople.jpg");
-   }
-   .project__image-4 {
-    background-image: url("images/header.jpg");
-   }
-   .project__image-5 {
-    background-image: url("images/hola-mobile.jpg");
-   }
-   .project__image-6 {
-    background-image: url("images/sample-image.jpg");
-   }
+.project__image-1 {
+  background-image: url("images/hero-small.jpg");
+}
 
-   
-  footer{
-    background-color: #02b3e4;
-    height: 5rem;
-    margin-top: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+.project__image-2 {
+  background-image: url("images/blogging-small.jpg");
+}
 
-  }
-   .footer__links{
-    display: flex;
-    align-items: center;
-   }
+.project__image-3 {
+  background-image: url("images/deartechpeople-small.jpg");
+}
 
-  
-   .footer__links a{
-   text-decoration:none;
-   color: azure;
-   padding-right: 1rem;
-   font-size:2rem;
-  }
+.project__image-4 {
+  background-image: url("images/header-small.jpg");
+}
 
+.project__image-5 {
+  background-image: url("images/hola-mobile-small.jpg");
+}
 
-   /*grid
+.project__image-6 {
+  background-image: url("images/sample-image.jpg");
+}
 
-   
-   .row {
-    width: 90rem;
-    max-width: 114rem;
-    margin: 0 auto;
-    
-  }
-  .row:not(:last-child) {
-    margin-bottom: 8rem;
-  }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .row [class^=col-] {
-    float: left;
-  }
-  .row [class^=col-]:not(:last-child) {
-    margin-right: 6reml;
-  }
-  .row .col-1-of-2 {
-    width: calc((100% - 6rem) / 2);
-  }
-  .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3);
-  }
-  .row .col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
-  }
-  .row .col-1-of-4 {
-    width: calc((100% - 3 * 6rem) / 4);
-  }
-  .row .col-2-of-4 {
-    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
-  }
-  .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
-  }
-  */
+@media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
+  .project__image-1{
+      background-image: url("images/hero.jpg");
+ }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
+  .project__image-2{
+      background-image: url("images/blogging.jpg");
+ }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
+  .project__image-3{
+      background-image: url("images/deartechpeople.jpg");
+ }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
+  .project__image-4{
+      background-image: url("images/header.jpg");
+ }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
+  .project__image-5{
+      background-image: url("images/hola-mobile.jpg");
+ }
+}
+
+footer{
+  background-color: #02b3e4;
+  height: 5rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer__links{
+  display: flex;
+  align-items: center;
+}
+
+.footer__links a{
+  text-decoration:none;
+  color: azure;
+  padding-right: 1rem;
+  font-size:2rem;
+}
+/*grid .row {
+  width: 90rem;
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row [class^=col-] {
+  float: left;
+}
+.row [class^=col-]:not(:last-child) {
+  margin-right: 6reml;
+}
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+.row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3);
+}
+.row .col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4);
+}
+.row .col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+.row .col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+*/
