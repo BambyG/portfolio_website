@@ -10,7 +10,7 @@ The website is also responsive displying images, descriptions and links to each 
 
 Please click [here](https://portfolio-bamby.netlify.com/) to be redirected to the website. 
 
-![Illustration](../images/screen.png)
+![Illustration](./images/screen.png)
 
 ##Technologies
 
