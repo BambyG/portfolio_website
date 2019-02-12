@@ -83,7 +83,7 @@ hr {
   border-top: 5px solid #7d97ad;
 }
 
-.hero {
+#hero {
   background: url("images/nat-6-small.jpg") no-repeat center center;
   background-size: cover;
   width: 90%;
@@ -92,6 +92,7 @@ hr {
   height: 50vh;
   border-radius: 3px;
   box-shadow: 0 2rem 4rem rgba(black, .2);
+  }
 }
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
@@ -247,7 +248,7 @@ footer{
 .footer__links a{
   text-decoration:none;
   color: azure;
-  padding-right: 1rem;
+  padding-right: 5rem;
   font-size:2rem;
 }
 /*grid .row {
