@@ -1,6 +1,6 @@
 # Portfolio website
 
-##Introduction
+# Introduction
 
 For this project, I am building a portfolio website. 
 
@@ -12,11 +12,11 @@ Please click [here](https://portfolio-bamby.netlify.com/) to be redirected to th
 
 ![Illustration](./images/screen.png)
 
-##Technologies
+# Technologies
 
 * HMTL
 * CSS
 
-##Launch
+# Launch
 
  The project does not have minimum hardware requirements
