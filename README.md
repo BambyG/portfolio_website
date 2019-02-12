@@ -1,6 +1,5 @@
-# Portfolio website
 
-# Introduction
+# Portfolio website Introduction
 
 For this project, I am building a portfolio website. 
 
