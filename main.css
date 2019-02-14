@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -40,7 +39,7 @@ p, a {
   margin-top: 4rem;
 }
 
-.name{
+.name {
   color: #2d3c49;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
@@ -49,7 +48,7 @@ p, a {
   flex-direction: column;
 }
 
-.header__name{
+.header__name {
   font-size: 5rem;
   font-weight: 200;
   letter-spacing: 1rem;
@@ -63,15 +62,14 @@ p, a {
  }
 }
 
-.header__title{
+.header__title {
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: 1rem;
-  float: right;
 }
 
 @media screen and (max-width: 450px) {
-  .header__title{
+  .header__title {
       text-align:center;
  }
 }
@@ -92,11 +90,11 @@ hr {
   margin:3rem auto;
   height: 50vh;
   border-radius: 3px;
-  box-shadow: 0 2rem 4rem rgba(#000, .2);
-  }
+  box-shadow: 0 2rem 4rem rgba(0,0,0, .2);
+}
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
-  .hero{
+  .hero {
       background: url("images/nat-6.jpg") no-repeat center center;
       background-position: center;
  }
@@ -107,17 +105,17 @@ section {
   margin:5rem auto;
 }
 
-h3{
+h3 {
   padding-bottom: 3rem;
   font-size:1.8rem;
 }
 
-h4{
+h4 {
   padding-top: 1rem;
   font-size:1.7rem;
 }
 
-.about__text{
+.about__text {
   line-height: 4rem;
   text-align: justify;
   margin:0 auto;
@@ -132,7 +130,7 @@ h4{
   margin:0 auto;
 }
 
-.project{
+.project {
   text-align: center;
   margin: 5px;
   flex: 1 0 25%;
@@ -142,19 +140,19 @@ h4{
 }
 
 @media screen and (min-width: 1024px)and (max-width: 1050px) {
-  .project{
+  .project {
       margin-left:6rem;
       margin-right:6rem;
  }
 }
 
 @media screen and (max-width: 700px) {
-  .project{
+  .project {
       margin:0 auto;
  }
 }
 
-.project h2{
+.project h2 {
   color: #2d3c49;
 }
 
@@ -169,7 +167,7 @@ h4{
   background-blend-mode: screen;
   transition: all 1s ease;
   border-radius: 3px;
-  box-shadow: 0 2rem 4rem rgba(#000, .2);
+  box-shadow: 0 2rem 4rem rgba(0,0,0, .2);
 }
 
 .project__image:hover {
@@ -201,36 +199,36 @@ h4{
 }
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
-  .project__image-1{
+  .project__image-1 {
       background-image: url("images/hero.jpg");
  }
 }
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
-  .project__image-2{
+  .project__image-2 {
       background-image: url("images/blogging.jpg");
  }
 }
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
-  .project__image-3{
+  .project__image-3 {
       background-image: url("images/deartechpeople.jpg");
  }
 }
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
-  .project__image-4{
+  .project__image-4 {
       background-image: url("images/header.jpg");
  }
 }
 
 @media only screen and (min-resolution:192dpi) and (min-width:37.5em), only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:37.5em), only screen and (min-width:125em){
-  .project__image-5{
+  .project__image-5 {
       background-image: url("images/hola-mobile.jpg");
  }
 }
 
-footer{
+footer {
   background-color: #02b3e4;
   height: 5rem;
   margin-top: 3rem;
@@ -240,15 +238,14 @@ footer{
   width: 100%;
 }
 
-.footer__links{
+.footer__links {
   display: flex;
   align-items: center;
 }
 
-.footer__links a{
+.footer__links a {
   text-decoration:none;
   color: azure;
   padding-right: 5rem;
   font-size:2rem;
 }
-
